@@ -129,8 +129,8 @@ The CPU executes one instruction per clock cycle, making it a good educational m
 
 
 
-### Author: [Yashwanth Singh M](github.com/yashwanthsinghm)
-### Reference : [Ektha Reddy](https://github.com/EkthaReddy/RISC-V-Single-Cycle-Processor)
+##### Author: [Yashwanth Singh M](github.com/yashwanthsinghm)
+##### Reference : [Ektha Reddy](https://github.com/EkthaReddy/RISC-V-Single-Cycle-Processor)
 
 
 
