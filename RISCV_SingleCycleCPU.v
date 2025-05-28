@@ -19,8 +19,8 @@ module RISCV_SingleCycleCPU(
 
     // Instantiate Instruction Memory
     Instruction_Memory inst_mem (
-        .A(pc),
-        .RD(instruction)
+        .address(pc),
+        .instruction(instruction)
     );
 
     // Instantiate ALU Control unit (extracting fields from instruction)
