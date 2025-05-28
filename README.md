@@ -127,6 +127,17 @@ The CPU executes one instruction per clock cycle, making it a good educational m
 - Verilog simulator (ModelSim, Icarus Verilog, Vivado Simulator, etc.)
 - Basic knowledge of RISC-V instruction encoding and processor design.
 
+## Results 
+
+### Simulation
+![r1](https://github.com/user-attachments/assets/9c554a82-93a2-4684-9478-a96c4379704f)
+
+### Synthesis
+
+![Screenshot 2025-05-28 220827](https://github.com/user-attachments/assets/e5b683ee-16d0-4abb-a692-db6bcfe46267)
+
+
+
 
 
 ##### Author: [Yashwanth Singh M](github.com/yashwanthsinghm)
