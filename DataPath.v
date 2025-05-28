@@ -56,9 +56,9 @@ module DataPath(
     RegFile register_file (
         .WE3(reg_write),
         .clk(clock),
-        .A1(instruction[19:15]),   // rs1
-        .A2(instruction[24:20]),   // rs2
-        .A3(instruction[11:7]),    // rd
+        .read_reg1(instruction[19:15]),   // rs1
+        .read_reg2(instruction[24:20]),   // rs2
+        .write_reg(instruction[11:7]),    // rd
         .WD3(mux_result),          // data to write
         .RD1(alu_src_a),
         .RD2(write_data)
@@ -107,3 +107,4 @@ module DataPath(
     );
 
 endmodule
+
